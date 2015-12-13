@@ -22,6 +22,12 @@ import java.util.Date;
  * This POJO holds the information regarding a single transaction.
  */
 public class Transaction {
+    public static final String TABLE = "Transaction_log";
+    public static final String FIELD_date = "t_date";
+    public static final String FIELD_expenseType = "expenseType";
+    public static final String FIELD_accountNo = "account_no";
+    public static final String FIELD_amount = "amount";
+
     private Date date;
 
     public Date getDate() {
